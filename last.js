@@ -1,7 +1,7 @@
-function gemsToDiamond(a, b, c) {
-  const first = a * 21;
-  const second = b * 32;
-  const third = c * 43;
+function gemsToDiamond(friends1, friends2, friends3) {
+  const first = friends1 * 21;
+  const second = friends2 * 32;
+  const third = friends3 * 43;
   const total = first + second + third;
   if (total > 2000) {
     return total - 2000;
@@ -9,7 +9,7 @@ function gemsToDiamond(a, b, c) {
     return total;
   }
 }
-const a = 1;
-const b = 1;
-const c = 1;
-console.log(gemsToDiamond(a, b, c));
+const friends1 = 1;
+const friends2 = 1;
+const friends3 = 1;
+// console.log(gemsToDiamond(friends1, friends2, friends3));

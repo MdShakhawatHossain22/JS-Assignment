@@ -1,4 +1,4 @@
-function isLgSeven(outputs) {
+function isLGSeven(outputs) {
   if (outputs < 7) {
     return outputs - 7;
   } else {
@@ -6,4 +6,4 @@ function isLgSeven(outputs) {
   }
 }
 const outputs = 15;
-console.log(isLgSeven(outputs));
+console.log(isLGSeven(outputs));
